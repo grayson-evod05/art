@@ -41,7 +41,7 @@ document.getElementById('btn').addEventListener("click", () => {
         btn.textContent = "View Less";
     } else{
         count = 4;
-        btn.textContent = "View More";
+        btn.textContent = "See More";
         container.scrollIntoView({behavior: 'smooth', block: 'start'});
     }
     updateGallery();
