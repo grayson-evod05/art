@@ -1,0 +1,46 @@
+/* ---- MOBILE: 320px - 375px ----*/
+
+@media (min-width: 20.625rem){
+    html{
+        font-size: 37.25%;
+    }
+}
+
+@media (min-width: 26.5625rem){
+    html{
+        font-size: 43.75%;
+    }
+    .features-card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 35rem){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media (min-width: 48rem){
+    html{
+        font-size: 56.25%;
+    }
+}
+
+@media (min-width: 64rem){
+    html{
+        font-size: 62.5%;
+    }
+    :root{
+    /* --- font sizes --- */
+    --text-h1: 6.2rem;
+    --text-h2: 4.8rem;
+    --text-h3: 4rem;
+    --text-h4: 3.2rem;
+    --text-h5: 2.4rem;
+    --text-paragraph: 2rem;
+    --text-base: 1.6rem;
+    --text-small: 1.4rem;
+    }
+}
